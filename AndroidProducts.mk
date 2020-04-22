@@ -15,9 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_crownlte.mk
+    $(LOCAL_DIR)/aosp_crownlte.mk
 
-COMMON_LUNCH_CHOICES := \
-     lineage_crownlte-userdebug \
-     lineage_crownlte-eng \
-     lineage_crownlte-user
