@@ -25,8 +25,5 @@ TARGET_KERNEL_CONFIG := exynos9810-crownlte_defconfig
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 4561305600
 
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
-
 # Inherit common board flags
 include device/samsung/universal9810-common/BoardConfigCommon.mk
