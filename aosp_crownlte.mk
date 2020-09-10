@@ -42,7 +42,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 #Maintainer
 EVO_DONATE_URL := https://www.paypal.me/yarpiin
 EVO_MAINTAINER := yarpiin
-EVO_SUPPORT_URL := https://t.me/joinchat/DNkhGFMc-o5FP9qSwz-4og
+EVO_SUPPORT_URL := https://t.me/EvolutionX9810
 
 # add fingerprint override to pass cts
 BUILD_FINGERPRINT := google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys
