@@ -24,11 +24,11 @@ $(call inherit-product, device/samsung/crownlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
-PRODUCT_NAME := lineage_crownlte
+PRODUCT_NAME := aosp_crownlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N960F
 PRODUCT_MANUFACTURER := samsung
@@ -36,6 +36,10 @@ PRODUCT_PDA_MODEL := N960F
 PRODUCT_PDA_MODEL_VERSION := XXS6ETG1
 PRODUCT_PDA_VERSION := $(PRODUCT_PDA_MODEL)$(PRODUCT_PDA_MODEL_VERSION)
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+#Evo specific
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
 
 BUILD_FINGERPRINT := samsung/crownltexx/crownlte:10/QP1A.190711.020/$(PRODUCT_PDA_VERSION):user/release-keys
 
@@ -46,7 +50,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.PDA=$(PRODUCT_PDA_VERSION)
-
-# OTA
-PRODUCT_PROPERTY_OVERRIDES += \
-    lineage.updater.uri=https://raw.githubusercontent.com/synt4x93/OTA/master/crownlte.json
