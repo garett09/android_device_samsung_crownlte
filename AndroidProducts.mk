@@ -15,5 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_crownlte.mk
-
+    $(LOCAL_DIR)/evolution_crownlte.mk
