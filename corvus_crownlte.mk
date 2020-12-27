@@ -23,12 +23,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/crownlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Corvus stuff
+TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
-PRODUCT_NAME := lineage_crownlte
+PRODUCT_NAME := corvus_crownlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N960F
 PRODUCT_MANUFACTURER := samsung
