@@ -36,14 +36,14 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 #Evo specific
-EVO_BUILD_TYPE := OFFICIAL
+#EVO_BUILD_TYPE := OFFICIAL
 TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1440
 
 #Maintainer
-EVO_DONATE_URL := https://www.paypal.me/yarpiin
-EVO_MAINTAINER := yarpiin
-EVO_SUPPORT_URL := https://t.me/EvolutionX9810
+EVO_DONATE_URL := https://www.paypal.me/garett09
+EVO_MAINTAINER := garett09
+#EVO_SUPPORT_URL := https://t.me/EvolutionX9810
 
 # add fingerprint override to pass cts
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys
