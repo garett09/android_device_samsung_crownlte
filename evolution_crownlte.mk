@@ -37,8 +37,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 #Evo specific
 #EVO_BUILD_TYPE := OFFICIAL
-TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 
 #Maintainer
 EVO_DONATE_URL := https://www.paypal.me/garett09
