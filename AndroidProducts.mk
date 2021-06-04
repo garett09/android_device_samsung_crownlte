@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_crownlte.mk
+    $(LOCAL_DIR)/dot_crownlte.mk
 
 COMMON_LUNCH_CHOICES := \
-     lineage_crownlte-userdebug \
-     lineage_crownlte-eng \
-     lineage_crownlte-user
+     dot_crownlte-userdebug \
+     dot_crownlte-eng \
+     dot_crownlte-user
