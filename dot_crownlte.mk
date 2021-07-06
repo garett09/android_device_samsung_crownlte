@@ -28,6 +28,7 @@ $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
