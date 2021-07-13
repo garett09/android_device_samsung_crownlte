@@ -47,4 +47,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="crownltexx-user 10 QP1A.190711.020 N960FXXU6FTK1 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.PDA=N960FXXU6FTK1
+    ro.build.PDA=N960FXXU6FTK1 \
+    ro.build.fingerprint=google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys
